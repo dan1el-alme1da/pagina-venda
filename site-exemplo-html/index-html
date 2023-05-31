@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>meu primeiro programa</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    
+    <body>
+    <!--cabeçalho-->
+    <header>
+        <h1>meu primeiro programa</h1>
+    </header>
+    <header><h2>cadastro
+        <p> name: <input type="text" name="senha"placeholder="insira seu nome"><br>
+        senha <input type="password" text="senha"placeholder="insira sua senha"></p>
+        <span class="triple-A" id="triple-A"></span></h2>
+    </header>
+
+    <!--grid de produtos-->
+    <main class="container">
+    <section class="product-container">
+        <div class="card">
+            <div class="product-image" id="img-1"></div>
+            <h3>nike pro max</h3>
+            <p> este sneaker é recomendado para trilhas</p>
+            <p><span class="bold">R$: 129,99</span></p>
+            <a href="a" class="btn">comprar</a>
+        </div>
+        <div class="card">
+            <div class="product-image" id="img-2"></div>
+            <h3>nike wesley safadao 23</h3>
+            <p> este sneaker é recomendado para dançar forró</p>
+            <p> <span class="bold">R$: 259,99</span></p>
+            <a href="a" class="btn">comprar</a>
+        </div>
+        <div class="card">
+            <div class="product-image" id="img-3"></div>
+            <h3>air top</h3>
+            <p> este sneaker é recomendado para corrida</p>
+            <p> <span class="bold">R$: 189,99</span></p>
+            <a href="a" class="btn">comprar</a>
+        </div>
+        <div class="card">
+            <div class="product-image" id="img-4"></div>
+            <h3>triple A</h3>
+            <p> estiloso, as mina vao pirar</p>
+            <p> <span class="bold">R$: 239,99</span></p>
+            <a href="a" class="btn">comprar</a>
+        </div>
+        <div class="card">
+            <div class="product-image" id="img-5"></div>
+            <h3>russian power</h3>
+            <p> lançamento na europa</p>
+            <p> <span class="bold">R$: 749,99</span></p>
+            <a href="a" class="btn">comprar</a>
+        </div>
+        <div class="card">
+            <div class="product-image" id="img-6"></div>
+            <h3>A.A.A</h3>
+            <p> beautiful girl</p>
+            <p> <span class="bold">R$: 499,99</span></p>
+            <a href="a" class="btn">comprar</a>
+        </div>
+    </section>
+    </main>
+
+    <!--rodapé-->
+    <footer>
+        <p><span class="bold">meu primeiro programa</span>&copy;2023</p>
+
+    </footer>
+
+    </body>
+
+</html>
