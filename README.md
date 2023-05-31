@@ -1,3 +1,4 @@
 # pagina-venda
- tenis valores e imagens
+ tenis, valores e imagens
  versoes
+ html
